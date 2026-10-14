@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Медиа-галерея</title>
+  </head>
+  <body>
+    <header>
+      <h1>Медиа-галерея</h1>
+      <p>Все файлы отдаются сервером через потоки (Streams).</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Галерея</h2>
+        <div class="gallery">
+          <figure>
+            <img src="/images/photo1.jpg" alt="Фото 1" />
+            <figcaption>Фото 1 (JPG)</figcaption>
+          </figure>
+          <figure>
+            <img src="/images/photo2.jpg" alt="Фото 2" />
+            <figcaption>Фото 2 (JPG)</figcaption>
+          </figure>
+          <figure>
+            <img src="/images/photo3.png" alt="Фото 3" />
+            <figcaption>Фото 3 (PNG)</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section>
+        <h2>Аудио-превью</h2>
+        <audio controls preload="metadata">
+          <source src="/audio/preview.mp3" type="audio/mpeg" />
+          Ваш браузер не поддерживает аудио.
+        </audio>
+      </section>
+    </main>
+  </body>
+</html>

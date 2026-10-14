@@ -1,0 +1,19 @@
+{
+  "name": "lab-npm-1",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "nanoid": "^6.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
